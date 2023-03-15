@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">147.182.200.74</domain>
+        <domain includeSubdomains="true">147.182.200.74/register</domain>
+        <domain includeSubdomains="true">147.182.200.74/login</domain>
+        <domain includeSubdomains="true">147.182.200.74/wallets/user-balance</domain>
+        <domain includeSubdomains="true">147.182.200.74/bills/purchase</domain>
+        <domain includeSubdomains="true">147.182.200.74/bills/account/</domain>
+        <domain includeSubdomains="true">147.182.200.74/transactions/</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/flight-bookings/airlines?</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/flight-bookings/flight-classes</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/flight-bookings/flight-prices?</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/account/user/flight-balance</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/register</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/login</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/wallets/user-balance</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/bills/purchase</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/bills/account/</domain>
+        <domain includeSubdomains="true">dev.utility.afrep.io/transactions/</domain>
+
+
+
+    </domain-config>
+
+
+</network-security-config>
